@@ -1,0 +1,42 @@
+import statistics as st
+
+
+empresa1 = [1000, 6000, 1200, 8000, 1400]
+empresa2 = [5000, 4000, 3000, 2000, 7000]
+empresa3 = [1200, 1300, 8000, 3000, 15000]
+empresa4 = [1400, 1750, 2000, 4500, 5900]
+
+
+print("Empresa 1")
+print("Média:", st.mean(empresa1))
+print("Mediana:", st.median(empresa1))
+print("Desvio Padrão:", round(st.pstdev(empresa1), 2))
+print()
+
+
+print("Empresa 2")
+print("Média:", st.mean(empresa2))
+print("Mediana:", st.median(empresa2))
+print("Desvio Padrão:", round(st.pstdev(empresa2), 2))
+print()
+
+
+print("Empresa 3")
+print("Média:", st.mean(empresa3))
+print("Mediana:", st.median(empresa3))
+print("Desvio Padrão:", round(st.pstdev(empresa3), 2))
+print()
+
+
+print("Empresa 4")
+print("Média:", st.mean(empresa4))
+print("Mediana:", st.median(empresa4))
+print("Desvio Padrão:", round(st.pstdev(empresa4), 2))
+print()
+
+# Eu escolho a Empresa 2.
+# Motivo:
+# Ela tem uma média salarial boa.
+# A mediana é alta, então a maioria ganha bem.
+# O desvio padrão é menor, mostrando que os salários são mais equilibrados.
+# Prefiro uma empresa mais estável do que uma com salários muito diferentes.
